@@ -10,54 +10,55 @@
   <link rel="stylesheet" href="output.css">
 </head>
 <body class="font-poppins">
-  <header>
-    <!-- Navbar -->
-    <nav class="bg-white fixed top-0 w-full z-50">
-        <div class="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
-            <div class="relative flex items-center justify-between h-16">
-    
-                <div class="absolute inset-y-0 left-0 flex items-center">
-                    <img class="h-8 w-auto" src="https://tailwindui.com/img/logos/workflow-mark-indigo-500.svg" alt="Workflow">
-                </div>
-                <div class="flex-1 flex items-center justify-center sm:items-stretch sm:justify-center">
-                    <div class="hidden sm:block">
-                        <div class="flex space-x-4">
-                            <a href="index.html" class="text-black hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-xl font-medium">Home</a>
-                            <a href="about.html" class="text-black hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-xl font-medium">About</a>
-                            <a href="#" class="text-black hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-xl font-medium">Management</a>
-                            <a href="#" class="text-black hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-xl font-medium">News & Event</a>
-                            <a href="#" class="text-black hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-xl font-medium">Gallery</a><a href="#" class="text-black hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-xl font-medium">Contact us</a>
+    <header>
+        <!-- Navbar -->
+        <nav class="bg-white fixed top-0 w-full z-50">
+            <div class="max-w-5xl mx-auto px-2 sm:px-6 lg:px-8">
+                <div class="relative flex items-center justify-between h-16">
+        
+                    <div class="absolute inset-y-0 left-0 flex items-center">
+                        <img class="h-8 w-auto" src="https://tailwindui.com/img/logos/workflow-mark-indigo-500.svg" alt="Workflow">
+                    </div>
+                    <div class="flex-1 flex items-end justify-end sm:items-stretch sm:justify-end">
+                        <div class="hidden sm:block">
+                            <div class="flex space-x-4">
+                                <a href="index.html" class="text-black hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-xl font-medium">Home</a>
+                                <a href="about.html" class="text-black hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-xl font-medium">About</a>
+                                <a href="management.html" class="text-black hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-xl font-medium">Management</a>
+                                <a href="event.html" class="text-black hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-xl font-medium">News & Event</a>
+                                <a href="galeri.html" class="text-black hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-xl font-medium">Gallery</a>
+                                <a href="contact.html" class="text-black hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-xl font-medium">Contact us</a>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="absolute inset-y-0 right-0 flex items-center sm:hidden">
-                    <!-- Mobile menu button-->
-                    <button type="button" class="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-white hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white" aria-controls="mobile-menu" aria-expanded="false">
-                        <span class="sr-only">Open main menu</span>
-                        <!-- Icon when menu is closed. -->
-                        <svg class="block h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7" />
-                        </svg>
-                        <!-- Icon when menu is open. -->
-                        <svg class="hidden h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
-                        </svg>
-                    </button>
+                    <div class="absolute inset-y-0 right-0 flex items-center sm:hidden">
+                        <!-- Mobile menu button-->
+                        <button type="button" class="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-white hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white" aria-controls="mobile-menu" aria-expanded="false">
+                            <span class="sr-only">Open main menu</span>
+                            <!-- Icon when menu is closed. -->
+                            <svg class="block h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7" />
+                            </svg>
+                            <!-- Icon when menu is open. -->
+                            <svg class="hidden h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+                            </svg>
+                        </button>
+                    </div>
                 </div>
             </div>
-        </div>
-
-        <!-- Mobile menu, show/hide based on menu state. -->
-        <div class="sm:hidden hidden" id="mobile-menu">
-            <div class="px-2 pt-2 pb-3 space-y-1">
-                <a href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Home</a>
-                <a href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">About</a>
-                <a href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Services</a>
-                <a href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Contact</a>
+  
+            <!-- Mobile menu, show/hide based on menu state. -->
+            <div class="sm:hidden hidden" id="mobile-menu">
+                <div class="px-2 pt-2 pb-3 space-y-1">
+                    <a href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Home</a>
+                    <a href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">About</a>
+                    <a href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Services</a>
+                    <a href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Contact</a>
+                </div>
             </div>
-        </div>
-    </nav>
-  </header>
+        </nav>
+      </header>
 
   <!--About us page -->
 
@@ -68,8 +69,8 @@
     </div>
   </div>
 
-  <div class="cotent text-center py-10 px-10 ">
-    <h1 class="align-center text-lg">
+  <div class="cotent-center px-24 mx-24 py-10">
+    <h1 class="text-center text-base px-24">
             What is Lorem Ipsum?
       Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum
 
@@ -83,8 +84,8 @@
     </h1>
   </div>
 
-  <section class="py-16 px-4 md:px-8 lg:px-16 bg-white">
-        <div class="max-w-6xl mx-auto flex flex-col md:flex-row items-center">
+  <section class="py-16 px-10 md:px-8 lg:px-16 bg-white">
+        <div class="max-w-5xl mx-auto flex flex-col md:flex-row">
             <div class="md:w-1/2 mb-8 md:mb-0 md:mr-8">
                 <img src="../image/about/2.jpeg" alt="Descriptive Alt Text" class="w-full h-auto rounded-lg shadow-md">
             </div>
@@ -97,7 +98,7 @@
     </section>
 
     <section class="py-16 px-4 md:px-8 lg:px-16 bg-white">
-      <div class="max-w-6xl mx-auto flex flex-col md:flex-row items-center">
+      <div class="max-w-5xl mx-auto flex flex-col md:flex-row">
           <div class="md:w-1/2 mb-8 md:mb-0 md:mr-10 md:ml-0 order-2 md:order-1">
               <h2 class="text-3xl font-bold mb-4">Our Vision</h2>
               <p class="text-lg mb-4">This is an example paragraph. You can replace this text with your own content. This layout allows you to have text on the left and an image on the right, making it suitable for various use cases such as about pages, product descriptions, and more.</p>
@@ -109,15 +110,15 @@
       </div>
     </section>
 
-    <div class="min-h-screen flex items-center justify-center bg-cover bg-center" style="background-image: url      ('../image/about/footer.png');">
-      <div class="bg-black bg-opacity-50 rounded-lg p-8 md:p-5 text-white">
-          <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold mb-4">Welcome to Our Website</h1>
-          <p class="text-lg md:text-xl lg:text-2xl mb-8">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vehicula mi id nulla semper ultrices. Aliquam pulvinar tristique felis.</p>
-          <form class="flex items-center">
-              <input type="text" placeholder="Search..." class="px-4 py-2 rounded-l-lg text-black focus:outline-none">
-              <button type="submit" class="bg-green-500 text-white px-4 py-2 rounded-r-lg">Search</button>
-          </form>
-      </div>
+    <div class="relative flex-grow ">
+        <div class="absolute inset-0 bg-cover bg-center" style="background-image: url('../image/about/footer.png');"></div>
+        <div class="relative bg-black bg-opacity-50 h-64 flex flex-col items-center justify-center text-white p-4">
+            <h1 class="text-xl md:text-4xl mb-4 text-center">A Wonderfull FIRST out of home learning EXPERIENCE For your child</h1>
+            <form class="flex mt-4">
+                <input type="text" placeholder="Search..." id="search-input" class="p-2 rounded-l-lg border-none outline-none">
+                <button type="button" onclick="search()" class="p-2 bg-yellow-500 text-white rounded-r-lg">Search</button>
+            </form>
+        </div>
     </div>
 
     <footer class="bg-gray-800 dark:bg-gray-900">
@@ -145,10 +146,13 @@
                     <h2 class="mb-6 text-sm font-semibold text-gray-400 uppercase dark:text-white">Follow us</h2>
                     <ul class="text-gray-500 dark:text-gray-400 font-medium">
                         <li class="mb-4">
-                            <a href="https://github.com/themesberg/flowbite" class="hover:underline ">Github</a>
+                            <a href="https://github.com/themesberg/flowbite" class="hover:underline ">Instagram</a>
                         </li>
-                        <li>
-                            <a href="https://discord.gg/4eeurUVvTy" class="hover:underline">Discord</a>
+                        <li class="mb-4">
+                            <a href="https://discord.gg/4eeurUVvTy" class="hover:underline">Twitter X</a>
+                        </li >
+                        <li class="mb-4">
+                            <a href="https://discord.gg/4eeurUVvTy" class="hover:underline">facebook</a>
                         </li>
                     </ul>
                 </div>
@@ -217,11 +221,7 @@
             </ul>
         </div>
       </div>
-      
-  
     </footer> 
-  
-  
 
   <script src="../flowbite/dist/flowbite.min.js"></script>
   <script src="../src/js/menu_btn.js"></script>
